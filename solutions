@@ -1,0 +1,10 @@
+Solution Approach:
+
+Use MC 2.0 INT kubeconfig and connect to the cluster
+Build the curl commands based on the input parameters to get access token
+Get into the customer license pod using 'exec and /bin/bash'
+execute the get access token curl command
+get the token and build 'call to an api' curl command
+execute the 'call to an api' curl command
+Capture the results and show it in the console
+
